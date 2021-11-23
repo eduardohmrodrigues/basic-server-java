@@ -4,6 +4,6 @@
     <title>Yahoo!!! From JSP</title>
 </head>
 <body>
-My first JSP
+My first JSP ${name}
 </body>
 </html>
