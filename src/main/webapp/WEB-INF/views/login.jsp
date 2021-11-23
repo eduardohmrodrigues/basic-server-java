@@ -4,6 +4,10 @@
     <title>Yahoo!!! From JSP</title>
 </head>
 <body>
-My first JSP ${name}
+    My first JSP
+
+    <form action="/login.do" method="post">
+        Name: <input type="text" name="name"/> <input type="submit"/>
+    </form>
 </body>
 </html>
